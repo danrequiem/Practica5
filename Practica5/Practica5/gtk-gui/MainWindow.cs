@@ -123,5 +123,6 @@ public partial class MainWindow
 		this.DeleteEvent += new global::Gtk.DeleteEventHandler (this.OnDeleteEvent);
 		this.Convertir.Clicked += new global::System.EventHandler (this.OnConvertirClicked);
 		this.Limpiar.Clicked += new global::System.EventHandler (this.OnLimpiarClicked);
+		this.Salir.Clicked += new global::System.EventHandler (this.OnSalirClicked);
 	}
 }

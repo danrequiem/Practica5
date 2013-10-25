@@ -55,6 +55,7 @@
             <property name="Label" translatable="yes">Salir</property>
             <property name="UseUnderline">True</property>
             <property name="Xalign">0.57</property>
+            <signal name="Clicked" handler="OnSalirClicked" />
           </widget>
           <packing>
             <property name="X">250</property>

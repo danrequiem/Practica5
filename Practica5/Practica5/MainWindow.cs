@@ -28,7 +28,7 @@ public partial class MainWindow: Gtk.Window
 										
 									null,
 									DialogFlags.Modal,
-									MessageType.Error,
+									MessageType.Warning,
 									ButtonsType.None,
 									"Error"
 				);
@@ -48,5 +48,10 @@ public partial class MainWindow: Gtk.Window
 	{
 		PesosText.Text = "";
 		CambioText.Text = "";
+	}
+
+	protected void OnSalirClicked (object sender, EventArgs e)
+	{
+		Application.Quit ();
 	}
 }
